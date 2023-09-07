@@ -3,16 +3,20 @@ import './style.css';
 
 // Write Javascript code!
 let name = 'Google';
-const appDiv = document.getElementById('app');
+let appDiv = document.getElementById('app');
 appDiv.innerHTML = `
-  <h1>This is 
-    <a id="googleLink" target="_blank" href="match/match.html"> ${name} </a>
-  </h1>
+  <div id="square" class="defCard">&nbsp
+  <div id="circle" class="card">&nbsp
+  </div>
+  </div>
 `;
 
-const googleLink = document.querySelector('h1');
-googleLink.addEventListener('click', show);
+const square = document.querySelector('#square');
+//square.addEventListener('click', match);
 
-function show() {
-  alert('No');
+let circle = document.querySelector('.card');
+circle.addEventListener('click', match);
+
+function match() {
+  circle.innerHTML = 'O';
 }

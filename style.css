@@ -8,3 +8,8 @@ a {
 a:hover {
   color: gold;
 }
+.card {
+  background-color: #cd7f32;
+  width: 100px;
+  height: 100px;
+}

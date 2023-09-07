@@ -6,7 +6,7 @@ let name = 'Google';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `
   <h1>This is 
-    <a id="googleLink" target="_blank" href="https://google.com"> ${name} </a>
+    <a id="googleLink" target="_blank" href="match/match.html"> ${name} </a>
   </h1>
 `;
 

@@ -7,7 +7,7 @@ matchingGame.innerHTML = `
   <div class="card">&nbsp</div>
 `;
 
-let card = document.querySelector('div');
+let card = document.querySelector('card');
 card.addEventListener('toggle', flip);
 
 function flip() {
